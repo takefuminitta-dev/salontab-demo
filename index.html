@@ -9,8 +9,7 @@
 :root{--bg:#080710;--border:rgba(255,255,255,0.07);--accent:#7B6EF6;--accent2:#C4A96D;--text:rgba(255,255,255,0.88);--muted:rgba(255,255,255,0.35);--green:#2DD4A0;}
 *{box-sizing:border-box;margin:0;padding:0;}
 html,body{height:100%;background:var(--bg);color:var(--text);font-family:'DM Mono',monospace;overflow:hidden;}
-.bg-img{position:fixed;inset:0;z-index:0;background-image:url('/u3966117843_Cinematic_interior_photograph_of_a_luxury_Japanes_5c6ace17-15e7-424c-a49d-50a76c1d4703_2.png');background-size:cover;background-position:center;opacity:0.22;}
-.bg-overlay{position:fixed;inset:0;z-index:1;background:linear-gradient(to bottom,rgba(8,7,16,0.75) 0%,rgba(8,7,16,0.45) 40%,rgba(8,7,16,0.88) 100%);}
+.bg-img{display:none;}.bg-overlay{position:fixed;inset:0;z-index:1;background:linear-gradient(to bottom,rgba(8,7,16,0.75) 0%,rgba(8,7,16,0.45) 40%,rgba(8,7,16,0.88) 100%);}
 .app{display:flex;flex-direction:column;height:100dvh;max-width:420px;margin:0 auto;position:relative;z-index:2;}
 .header{padding:16px 20px 12px;border-bottom:0.5px solid var(--border);background:rgba(8,7,16,0.85);backdrop-filter:blur(20px);position:sticky;top:0;z-index:10;}
 .header-top{display:flex;align-items:center;gap:12px;}
